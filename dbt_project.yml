@@ -43,3 +43,6 @@
 
 name: "dbt_projectnew"
 model-paths: ["models"]
+seed-paths: ["seeds"]
+analysis-paths: ["analyses"]
+macro-paths: ["macros"]

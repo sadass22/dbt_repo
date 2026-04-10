@@ -1,0 +1,15 @@
+sources:
+  - name: snowsource
+    database: SNOWDBT
+    schema: PUBLIC
+    tables:
+      - name: EMP
+      - name: SALES
+
+models:
+  - name: "rahul"
+    config:
+      materialized: 'table'
+  - name: 'rahul2'
+    config:
+      materialized: 'view'
