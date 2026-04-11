@@ -5,6 +5,7 @@ sources:
     tables:
       - name: EMP
       - name: SALES
+      - name: SCD_DBT
 
 models:
   - name: "rahul"

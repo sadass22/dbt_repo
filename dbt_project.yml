@@ -40,9 +40,10 @@
 #     # Applies to all files under models/example/
 #     example:
 #       +materialized: table
-
+version: "2.0.0"
 name: "dbt_projectnew"
 model-paths: ["models"]
 seed-paths: ["seeds"]
 analysis-paths: ["analyses"]
 macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
